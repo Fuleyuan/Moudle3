@@ -15,8 +15,8 @@ and open the template in the editor.
         include('Student.php');
         $students = array();
         $first = new Student();
-        $first->surname = "Doe  ";
-        $first->first_name = "John";
+        $first->surname = "Amy ";
+        $first->first_name = "Jack";
         $first->add_email('home', 'john@doe.com');
         $first->add_email('work', 'jdoe@mcdonalds.com');
         $first->add_email('work', 'jdoe@mcdonalds.com');
@@ -38,11 +38,11 @@ and open the template in the editor.
         $students['a456'] = $second;
         
         $three= new Student();
-        $three->surname = "Zhang  ";
-        $three->first_name = "Hongqiang";
-        $three->add_email('home', '1401362966@qq.com');
-        $three->add_email('work1', '1401362966@qq.com');
-        $three->add_email('work2', '1401362966@qq.com');
+        $three->surname = "Fu  ";
+        $three->first_name = "Leyuan";
+        $three->add_email('home', '857798973@qq.com');
+        $three->add_email('work1', '857798973@qq.com');
+        $three->add_email('work2', '857798973@qq.com');
         $three->status = "Senior";
         $three->add_grade(95);
         $three->add_grade(80);
@@ -50,11 +50,11 @@ and open the template in the editor.
         $students['141'] = $three;
         
          $fourth = new Student();
-        $fourth->surname = "fly  ";
+        $fourth->surname = "zhq  ";
         $fourth->first_name = "dog";
-        $fourth->add_email('home', '1401362966@qq.com');
-        $fourth->add_email('work1', '1401362966@qq.com');
-        $fourth->add_email('work2', '1401362966@qq.com');
+        $fourth->add_email('home', '857798973@qq.com');
+        $fourth->add_email('work1', '857798973@qq.com');
+        $fourth->add_email('work2', '857798973@qq.com');
         $fourth->status = "Senior";
         $fourth->add_grade(95);
         $fourth->add_grade(80);
